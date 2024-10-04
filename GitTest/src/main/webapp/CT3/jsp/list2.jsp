@@ -1,19 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="CT3\css\list.css">
+    <link rel="stylesheet" type="text/css" href="/CT3/css/list.css">
 </head>
 <body>
-    <div class="container">
+    <div class="wrap">
+        <div class="intro_bg">
+            <div class="header">
+                <div class="logo"><a href="">칵테일톡</a></div>
+                <ul class="nav">
+                    <li><a href="">칵테일 검색</a></li>
+                    <li><a href="">커뮤니티</a></li>
+                    <li><a href="">즐길거리</a></li>
+                    <li><a href="">행사</a></li>
+                </ul>
+                <div>
+                    <ul class="my_page">
+                        <li><a href="">로그아웃</a></li>
+                        <li><a href="">마이페이지</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list">
         <h2>모임 게시판😎😎</h2>
         <div class="panel panel-default">
-            <div class="panel-heading">게시판</div>
+            <div class="panel-heading">목록</div>
            <!-- 비동기 통신 -->
             <div class="panel-body">
-                <table class="table table-bordered">
+                <table class="table table-bordered" border="1">
                     <thead>
                         <tr>
                             <th>번호</th>
