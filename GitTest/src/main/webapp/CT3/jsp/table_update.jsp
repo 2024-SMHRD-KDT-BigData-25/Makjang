@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" type="text/css" href="/CT3/css/table_insert.css">
+    <link rel="stylesheet" type="text/css" href="../css/table_insert.css">
 </head>
 <body>
     <h1>게시글 수정</h1>

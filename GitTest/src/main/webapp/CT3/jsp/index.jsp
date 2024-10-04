@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" type="text/css" href="/CT3\css\index_style.css">
+    <link rel="stylesheet" type="text/css" href="../css/index_style.css">
 </head>
 <body>
     <div class="wrap">
@@ -43,7 +43,7 @@
             <div class="px24">매주 새로운 칵테일을 추천해 드립니다</div>
             <div class="service">
                 <div class="cock_photo">
-                    <img src="CT3/image/cock.jpg">
+                    <img src="../image/cock.jpg">
                 </div>
                 <div class="px18">
                     <h2>마티니</h2>
@@ -62,7 +62,7 @@
                 <h1>설명</h1>    
             </div>
             <div class="rank">
-                <img src="CT3/image/worldcup.jpg">
+                <img src="../image/worldcup.jpg">
             </div>
         </div>
     </div>
