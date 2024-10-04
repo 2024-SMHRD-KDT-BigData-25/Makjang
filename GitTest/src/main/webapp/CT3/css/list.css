@@ -1,0 +1,10 @@
+*{
+    list-style : none;
+    text-decoration: none; /* a태그 밑줄 없애줌 */
+    border-collapse: collapse;
+    margin: 0px;
+    padding:0px;
+    color: #000;
+    }
+
+    
