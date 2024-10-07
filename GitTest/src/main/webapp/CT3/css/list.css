@@ -7,26 +7,33 @@
     color: #000;
     }
 
+    .px18{
+        font-size: 18px;
+        font-weight: 100;
+    }
+
     /* intro */
 
     .intro_bg{
         background-image: url("");
-        width:1700px;
+        width: 1700px;;
         height: auto;
         background: lightsalmon;
     }
     
     .header{
         display: flex;
-        width:100%;
+        width:1400px;
         margin : auto; /*가운데로 들어옴*/
         height: 86px;
         line-height: 86px;
+        gap: 55px;
+        
     }
 
     .logo{
         flex:1;
-        text-align: right;        
+        text-align:center;        
     }
 
     .logo > a{
@@ -35,13 +42,10 @@
     }
 
     .nav{
-        flex: 5;
+        flex: 7;
         display:flex;
         justify-content:flex-start;
-    }
-
-    .nav > li{
-        margin-left: 84px;
+        gap: 120px;
     }
     
     .nav > li> a{
@@ -49,17 +53,63 @@
         font-weight: bold;
     }
 
+    .nav a:hover{
+        background-color: #fff;
+        background-size: auto;
+        padding : 5px;
+    }
+
+    .dropdown {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        min-width: 160px;
+    }
+
+    /* 서브메뉴 스타일 */
+    .dropdown li {
+        width: 100%;
+        text-align: center;
+        border: 1px solid #000;
+    }
+
+    .dropdown li a {
+        padding: 10px 20px;
+        color: #000;
+        text-decoration: none;
+        display: block;
+        cursor: pointer; 
+    }
+
+    .dropdown li a:hover {
+        background-color: rgb(210, 250, 213);
+        text-decoration: underline;
+    }
+
+    /* 부모 항목에 마우스 오버시 서브메뉴 보이기 */
+    .nav > li:hover .dropdown {
+        display: block;
+    }
+
+    /* 전체 클리어 스타일 */
+    .clear {
+        clear: both;
+    }
+
     .my_page{
         flex:2;
         display:flex;
         justify-content:flex-start;
-    }
-
-    .my_page > li{
-        margin-right: 84px;
+        text-align: center;
+        gap: 40px;
     }
     
     .my_page > li> a{
         color:#000;
         font-weight: bold;
+        
     }
+  
