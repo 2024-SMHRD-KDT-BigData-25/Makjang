@@ -271,6 +271,11 @@ a{
     box-sizing: border-box;
 }
 
+.board_write .info input[type="file"]{
+    padding : 10px;
+    box-sizing: border-box;
+}
+
 .board_write .title input[type="text"]{
     width: 80%;
 }

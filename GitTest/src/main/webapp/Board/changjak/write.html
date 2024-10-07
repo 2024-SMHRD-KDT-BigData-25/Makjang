@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>모임 게시글 작성</title>
-    <link rel="stylesheet" href="css/css.css">
+    <title>창작 게시글 작성</title>
+    <link rel="stylesheet" href="/Board/css/css.css">
 </head>
 <body>
     <div class="board_wrap">
         <div class="board_title">
-            <Strong>모임 게시글 작성</Strong>
+            <Strong>창작 게시글 작성</Strong>
             <p>취향이 맞는 다른 사람들과 함께 마시기 원한다면 방을 만들어보세요!</p>
         </div>
         <div class="board_write_wrap">
@@ -30,18 +30,11 @@
                         </dd>
                     </dl>
                     <dl>
-                        <dt>참여인원</dt>
+                        <dt>이미지</dt>
                         <dd>
-                            <select name="people" id="">
-                                <option value="">인원 선택</option>
-                                <option value="">2명</option>
-                                <option value="">3명</option>
-                                <option value="">4명</option>
-                                <option value="">5명</option>
-                                <option value="">6명</option>
-                                <option value="">7명</option>
-                                <option value="">8명</option>
-                            </select>
+                            <form action="#" method="post" enctype="multipart/form-data">
+                                <input type="file" name="image" accept="image/*" multiple required> <!-- 여러개 파일 업로드 가능-->
+                            </form>
                         </dd>
                     </dl>
                 </div>
