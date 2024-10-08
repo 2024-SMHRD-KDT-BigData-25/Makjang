@@ -10,41 +10,8 @@
     <link rel="stylesheet" href="../../css/css.css">
 </head>
 <body>
-	<%@include file="/Board/header.jsp" %>
     <div class="wrap">
-        <div class="intro_bg">
-            <div class="header">
-                <div class="logo"><a href="">칵테일톡</a></div>
-                <ul class="nav">
-                    <li><a href="#">칵테일 검색</a></li>
-                    <li><a href="#">커뮤니티</a>
-                        <ul class="dropdown">
-                            <li><a href="../../moim/jsp/list.jsp">모임 게시판</a></li>
-                            <li><a href="../../jaU/list.html">자유 게시판</a></li>
-                            <li><a href="../../changjak/list.html">창작 게시판</a></li>
-                            <li><a href="../../injeung/list.html">인증 게시판</a></li>
-                        </ul>
-                        
-                    </li>
-                    <li><a href="#">즐길거리</a>
-                        <div display : block>
-                            <ul class="dropdown">
-                                <li><a href="">먹었어요 월드컵</a></li>
-                                <li><a href="">먹고 싶어요 월드컵</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="#">행사</a></li>
-                </ul>
-                <div>
-                    <ul class="my_page">
-                        <li><a href="">로그아웃</a></li>
-                        <li><a href="">마이페이지</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+	<%@include file="/Board/header.jsp" %>
         <div class="board_wrap">
             <div class="board_title">
                 <Strong>인증 게시판</Strong>
@@ -112,6 +79,9 @@
                 </div>
             </div>
         </div>
+        
+        <%@include file="/Board/footer.jsp" %>
+        
     </div>
 </body>
 </html>

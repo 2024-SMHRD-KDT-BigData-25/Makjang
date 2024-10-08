@@ -78,6 +78,7 @@
                 </div>
             </div>
         </div>
+        <%@include file="/Board/footer.jsp" %>
     </div>
 </body>
 </html>
