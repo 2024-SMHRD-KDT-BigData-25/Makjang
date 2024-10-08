@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../css/css.css">
 </head>
 <body>
+	<%@include file="/Board/header.jsp" %>
     <div class="board_wrap">
         <div class="board_title">
             <Strong>작성자 입장 인증 게시글</Strong>

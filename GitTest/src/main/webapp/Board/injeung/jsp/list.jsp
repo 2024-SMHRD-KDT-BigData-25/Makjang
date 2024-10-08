@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../css/css.css">
 </head>
 <body>
+	<%@include file="/Board/header.jsp" %>
     <div class="wrap">
         <div class="intro_bg">
             <div class="header">

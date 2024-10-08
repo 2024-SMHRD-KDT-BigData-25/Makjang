@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/Board/css/css.css">
 </head>
 <body>
+	<%@include file="/Board/header.jsp" %>
     <div class="board_wrap">
         <div class="board_title">
             <Strong>자유 게시글 작성</Strong>
