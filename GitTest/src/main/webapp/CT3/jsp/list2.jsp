@@ -10,24 +10,8 @@
 </head>
 <body>
     <div class="wrap">
-        <div class="intro_bg">
-            <div class="header">
-                <div class="logo"><a href="">칵테일톡</a></div>
-                <ul class="nav">
-                    <li><a href="">칵테일 검색</a></li>
-                    <li><a href="">커뮤니티</a></li>
-                    <li><a href="">즐길거리</a></li>
-                    <li><a href="">행사</a></li>
-                </ul>
-                <div>
-                    <ul class="my_page">
-                        <li><a href="">로그아웃</a></li>
-                        <li><a href="">마이페이지</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+		<%@include file="/Board/header.jsp" %>
+    
     <div class="list">
         <h2>모임 게시판😎😎</h2>
         <div class="panel panel-default">
@@ -58,5 +42,6 @@
             <div class="panel-footer">footer</div>
         </div>
     </div>
+    
 </body>
 </html>
